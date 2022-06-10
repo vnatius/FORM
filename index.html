@@ -1,0 +1,61 @@
+
+<form action="" method="post">
+    <fieldset>
+    <legend>Academics information</legend>
+    <br>
+    <label for="degree">Degree</label>
+    <select name="deg" id="degree">
+        <option value="selectDeg" disabledselected>Select your Degree</option>
+        <option value="MasterBA">Masters of Business Administration</option>
+        <option value="MasterCO">Masters of Computer Science</option>
+        <option value="MasterBA">Masters of Business Development</option>
+        <option value="MasterPR">Masters of Public Relation</option>
+    </select>
+    <br>
+    <br>
+    <Label>Student ID</Label>
+    <input type="number" name="studentid" id="stdID" placeholder="Your Identification Number">
+    <br>
+    <br>
+    <label for="degree">Class Attended</label>
+    <select name="deg" id="degree" multiple>       
+        <option value="java">JAVA</option>
+        <option value="swift">SWIFT</option>
+        <option value="php">PHP</option>
+        <option value="python">PYTHON</option>
+    </select>
+    <br>
+</fieldset>
+    <br>
+    <fieldset>
+    <legend>Personal Details</legend>
+    <br>
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstname" id="firstName" placeholder="First Name">
+    <br>
+    <br>
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastname" id="lastName" placeholder="Last Name">
+    <br>
+    <br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="select" id="male" placeholder="Male" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" name="select" id="female" placeholder="Female" value="Female">
+    <label for="male">Female</label>
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Your email">
+</fieldset>
+    <br>
+    <br>
+<div>
+    <textarea name="tc" id="TC" cols="30" rows="10">Terms and Conditions...</textarea>
+</div>
+    <br>
+    <br>
+    <br>
+
+    <button type="submit">Send Form</button>   <button type="reset">Clear Form</button>
+</form>
